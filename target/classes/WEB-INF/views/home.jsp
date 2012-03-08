@@ -12,6 +12,7 @@
 	<ul>
 		<li><a href="/TestMVC/hello/my/dear">Custom tag test (hello dear page)</a></li>
 		<li><a href="/TestMVC/hello/supa/secret/page">supa secret page</a></li>
+		<li><a href="/TestMVC/high-five">high five</a></li>
 	</ul>
 	
 	

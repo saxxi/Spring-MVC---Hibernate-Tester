@@ -82,5 +82,8 @@ public class HomeController {
 		return "hello/supaSecret";
 	}
 	
-	
+	@RequestMapping(value = "/high-five", method = RequestMethod.GET)
+	public String highFive(Locale locale, Model model, Principal principal) {
+		return "hello/highFive";
+	}
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.aditsaxena.webapp.model.Product" table="Product">
+        <id name="id" type="long" column="id" >
+  			<generator class="increment"/>
+	    </id>
+        <property name="title" type="string">
+            <column name="title" length="20" not-null="true" />
+        </property>
+        <property name="qty" type="int">
+            <column name="qty" length="20" not-null="true" />
+        </property>
+        
+        <property name="updated" type="date">
+            <column name="updated" length="7" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

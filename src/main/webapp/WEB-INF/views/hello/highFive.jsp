@@ -5,7 +5,9 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>High Five!</h1>
-		
+	<h1>${pageTitle}</h1>
+	<p>Testing Hibernate</p>
+	
+	
 </body>
 </html>

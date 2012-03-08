@@ -1,6 +1,8 @@
 package com.aditsaxena.webapp.model;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Set;
 
 
 public class Product implements java.io.Serializable {
@@ -52,6 +54,11 @@ public class Product implements java.io.Serializable {
 	
 	public void setUpdated(Date updated) {
 		this.updated = updated;
+	}
+	
+	public List<Product> findProducts() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 		 
 }
